@@ -14,12 +14,12 @@ def piglatinize(user_phrase)
   
   def to_pig_latin(sentence)
     words_in_sentence = sentence.split(" ")
-    binding.pry
     pig_latinized_words = words_in_sentence.each do |word|
     self.piglatinize(word)
+    new_sentence = pig_latinized_words.join(" ")
   end
 
-    # new_sentence = pig_latinized_words.join(" ")
+    
   end
 
   def begins_with_vowel
