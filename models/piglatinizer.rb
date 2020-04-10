@@ -11,7 +11,7 @@ def piglatinize(user_phrase)
     end
     latinized_word
   end
-
+  binding.pry
   def to_pig_latin(sentence)
     
     words_in_sentence = sentence.split(" ")
