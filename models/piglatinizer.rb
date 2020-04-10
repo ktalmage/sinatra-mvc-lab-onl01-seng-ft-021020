@@ -18,7 +18,7 @@ def piglatinize(user_phrase)
     self.piglatinize(word)
   end
 
-    new_sentence = pig_latinized_words.join(" ")
+    # new_sentence = pig_latinized_words.join(" ")
   end
 
   def begins_with_vowel
