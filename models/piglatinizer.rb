@@ -13,6 +13,7 @@ def piglatinize(user_phrase)
   end
   
   def to_pig_latin(sentence)
+    binding.pry
     words_in_sentence = sentence.split(" ")
 
     pig_latinized_words = words_in_sentence.each do |word|
